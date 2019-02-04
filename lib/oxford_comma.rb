@@ -5,9 +5,6 @@ def oxford_comma(array)
     last = array.pop()
     array = array.insert(-1, "and #{last}")
     array = array.join(', ')
-    array
-    # array = array.insert(2,'and ')
-    # array = array.join(', ')
   else   
   array.join(', ')
   end 
